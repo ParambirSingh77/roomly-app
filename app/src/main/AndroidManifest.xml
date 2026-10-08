@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_roomly_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Roomly">
+
+        <!-- The login screen opens first -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main screen with the bottom navigation -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Confirm booking request screen -->
+        <activity
+            android:name=".RequestActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

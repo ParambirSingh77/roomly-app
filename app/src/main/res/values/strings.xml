@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roomly</string>
+    <string name="tagline">Book meeting and seminar rooms in your office.</string>
+    <string name="logo_description">Roomly logo, a door</string>
+
+    <!-- Login -->
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="label_role">I am a</string>
+    <string name="role_employee">Employee</string>
+    <string name="role_manager">Manager</string>
+    <string name="action_login">Log in</string>
+    <string name="login_note">Prototype data only. Any username and password will work for an employee.</string>
+    <string name="error_username">Enter your username.</string>
+    <string name="error_password">Enter your password.</string>
+    <string name="manager_later">Manager screens are built in the next stage of the project.</string>
+
+    <!-- Navigation -->
+    <string name="nav_rooms">Rooms</string>
+    <string name="nav_bookings">My bookings</string>
+    <string name="nav_logout">Log out</string>
+    <string name="dialog_logout_title">Log out?</string>
+    <string name="dialog_logout_yes">Log out</string>
+    <string name="back_description">Back</string>
+
+    <!-- Rooms -->
+    <string name="heading_rooms">Available rooms</string>
+    <string name="sub_rooms">Pick a date and time to see what is free.</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_time">Time (1 hour slot)</string>
+    <string name="action_request">Request</string>
+    <string name="desc_request">Request %1$s</string>
+    <string name="empty_rooms">No rooms are free at this time. Try another time or date.</string>
+
+    <!-- Request booking -->
+    <string name="heading_request">Request booking</string>
+    <string name="sub_request">Check the details, then confirm.</string>
+    <string name="action_send">Send request</string>
+    <string name="action_back">Back</string>
+    <string name="request_taken">This room is already booked at that time. Go back and choose another room or time.</string>
+    <string name="request_sent">Request sent. A manager will review it.</string>
+    <string name="when_format">%1$s at %2$s</string>
+
+    <!-- My bookings -->
+    <string name="heading_bookings">My bookings</string>
+    <string name="sub_bookings">Your bookings and requests.</string>
+    <string name="empty_bookings">You have no bookings yet. Go to Rooms to request one.</string>
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_pending">Waiting for manager approval</string>
+    <string name="status_cancel">Cancellation requested</string>
+    <string name="note_pending">A manager will review this request. This card changes to Confirmed when it is approved.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="desc_cancel">Cancel booking for %1$s</string>
+    <string name="dialog_cancel_title">Cancel this booking?</string>
+    <string name="dialog_cancel_yes">Yes, cancel</string>
+    <string name="dialog_keep">Keep booking</string>
+    <string name="msg_cancelled">Booking cancelled.</string>
+    <string name="msg_cancel_requested">Cancellation request sent to a manager.</string>
+</resources>
